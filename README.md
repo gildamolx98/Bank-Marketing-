@@ -1,9 +1,5 @@
 # Bank-Marketing
 
-Here's a data story and a script for a README file based on the provided code and Bank Marketing dataset:
-
-Data Story:
-
 The Bank Marketing dataset contains information about a Portuguese banking institution's direct marketing campaigns. The dataset includes 45,211 instances, representing potential customers who were contacted by the bank to subscribe to a term deposit.
 
 Our goal is to predict whether a customer will subscribe to a term deposit based on their characteristics and the marketing campaign's details.
@@ -12,17 +8,9 @@ We started by exploring the dataset, which revealed that the majority of custome
 
 We then preprocessed the data by handling missing values, encoding categorical variables, and scaling numerical features.
 
-Next, we split the data into training and testing sets and evaluated several machine learning models, including logistic regression, decision trees, random forests, and gradient boosting.
+Next, we split the data into training and testing sets and evaluated several machine learning models, including logistic regression, decision trees, random forests, and gradient boosting,....etc.
 
-The random forest classifier outperformed the other models, achieving an accuracy of 89.4% on the testing set.
-
-We also performed hyperparameter tuning using grid search and random search, which further improved the model's performance.
-
-README Script:
-
-*Bank Marketing Dataset Analysis*
-
-This repository contains an analysis of the Bank Marketing dataset, which includes 45,211 instances of potential customers who were contacted by a Portuguese banking institution to subscribe to a term deposit.
+The random forest classifier outperformed the other models, achieving an accuracy of 89.4% on the testing set during hyperparameter tuning
 
 *Dataset Description*
 
@@ -65,10 +53,4 @@ Hyperparameter tuning using grid search and random search further improved the m
 
 This analysis demonstrates the effectiveness of machine learning models in predicting customer behavior. The random forest classifier's high accuracy suggests that it can be a valuable tool for banks seeking to improve their marketing campaigns.
 
-*Repository Structure*
-
-This repository includes the following files:
-
-- `Bank_Marketing.csv`: The Bank Marketing dataset
-- `analysis.ipynb`: The analysis notebook
-- `(link unavailable)`: This README file
+Dataset link : https://drive.google.com/file/d/14Ioz_6QIbJPnGtNakboponJLY5FvVgfa/view?usp=sharing
